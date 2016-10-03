@@ -16,8 +16,8 @@ app.controller('cardGameCtrller', function($scope) {
  var matches_found = 0;
  var card1 = false, card2 = false;
 
- var cardImagesUrl = "/javascript/game/images/cards";
- var imagesUrl = "/javascript/game/images";
+ var cardImagesUrl = "images/cards";
+ var imagesUrl = "images";
 
   var hideCard = function(id) // turn card face down
   {
