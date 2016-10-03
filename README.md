@@ -5,3 +5,5 @@ angular, and jquery.
 
 Its not the finished product but a mock i made for another project. But i could be used to another projects as a base.
 
+The tarot_game you must have bower to update all dependencies. 
+run it with bower install. 
