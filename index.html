@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>Custom Tarot Game</title>
+    <link rel="stylesheet" type="text/css" href="css-animation.css">
+</head>
+
+<style type="text/css">
+    #warning-message {
+        display: none;
+    }
+
+    @media only screen and (orientation:portrait) {
+        #stage {
+            display: none;
+        }
+        #warning-message {
+            display: block;
+        }
+    }
+
+    @media only screen and (orientation:landscape) {
+        #warning-message {
+            display: none;
+        }
+    }
+</style>
+
+<body>
+    <div ng-app="cardGameApp" ng-controller="cardGameCtrller">
+        <div id="stage">
+            <!-- -->
+        </div>
+        <div id="warning-message">
+            Favor coloque el telefono en modo horizontal. Para poder desplegar el juego
+        </div>
+    </div>
+<!--vendors-->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/iframeResizer.contentWindow.min.js"></script>
+
+<!--custom-->
+    <script src="js/css-animation2.js"></script>
+
+</body>
+</html>
